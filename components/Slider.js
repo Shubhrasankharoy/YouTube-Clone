@@ -1,6 +1,5 @@
 import React from 'react'
 import { NAVBARITEMS } from '@/utils/constants'
-import { House } from 'lucide-react'
 import Link from 'next/link'
 import { capitalizeFirstLetter } from '@/utils/functions'
 

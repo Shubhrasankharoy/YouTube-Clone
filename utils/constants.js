@@ -72,3 +72,29 @@ export const NAVBARITEMS = [
         ],
     },
 ];
+
+export const YOUTUBE_MOSTPOPULAR_VIDEO_URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&regionCode=US&key=`;
+
+export const YOUTUBE_FILTERS = [
+    "All",
+    "Music",
+    "Mixes",
+    "Jukebox",
+    "T-Series",
+    "Playlists",
+    "Arijit Singh",
+    "Yo Yo Honey Singh",
+    "Movie musicals",
+    "Indian pop music",
+    "Gaming",
+    "Adele",
+    "Live",
+    "Chants",
+    "Middle Eastern Music",
+    "Kishore Kumar",
+    "Free Fire MAX x NARUTO",
+    "Folk Music",
+    "Recently uploaded",
+    "Watched",
+    "New to you"
+];
